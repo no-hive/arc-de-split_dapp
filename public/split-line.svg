@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" preserveAspectRatio="none" fill="none">
+  <defs>
+    <mask id="splits" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="180">
+      <path fill="#fff" d="M0 0h1200v180H0z"/>
+      <g stroke="#000" stroke-width="16">
+        <path d="m1018 65 26 48"/>
+        <path d="m622 50 26-48"/>
+        <path d="m252 174 26-48"/>
+      </g>
+    </mask>
+  </defs>
+  <path d="M1224 28c-144-12-114 90-294 90C740 118 764 16 570 25S392 155 206 151C94 151 56 76-24 90" stroke="#000" stroke-width="10" stroke-linecap="butt" mask="url(#splits)"/>
+</svg>
