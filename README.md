@@ -1,3 +1,35 @@
-<img width="1600" height="480" alt="Arc-de-Split-GitHub-banner" src="https://github.com/user-attachments/assets/19689ec1-dfc7-4232-bbdf-bbc9d808c19e" />
+<h1 align="center">Arc-de-Split</h1>
 
-### Arc-de-Split is an app to provide a simple way to split a restaurant bill in USDC on Arc. A restaurant creates a bill and shares its order number. Guests enter the number, choose their items, and pay their own share.
+<p align="center">
+  <a href="https://split.no-hive.workers.dev">Live app</a>
+  ·
+  <a href="https://github.com/no-hive/arc-de-split_contract">Contract code</a>
+  ·
+  <a href="https://explorer.arc.io/address/0x50066DD18166566C4CCc44903E2c72B858d4b29d">Contract address</a>
+</p>
+
+Arc-de-Split is a minimal payment app for restaurants on Arc.
+
+1. A venue creates a USDC bill.
+2. Guests enter the bill number.
+3. They select their items.
+4. They pay their own share.
+
+### Built on Arc
+
+- Arc Mainnet · Chain ID 5042
+- USDC payments
+- USDC gas fees
+- No backend or database
+
+### Run locally
+
+```bash
+npm ci
+npm run dev
+
+```
+
+---
+
+<img width="1600" height="354" alt="Frame 91" src="https://github.com/user-attachments/assets/ae411293-fe6b-4057-87c4-66a49339af9f" />
